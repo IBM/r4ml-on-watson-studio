@@ -91,7 +91,7 @@ Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 
 * Give your notebook a name and select your desired runtime, in this case we'll be using the associated Spark runtime.
 
-> Note: For this Code Pattern, after settin the run-time to your `Spark` instance, set language to `R`
+> Note: For this Code Pattern, after setting the run-time to your `Spark` instance, set language to `R`
 
 
 ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/notebook_spark.png)
