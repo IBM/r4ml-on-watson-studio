@@ -91,7 +91,7 @@ Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 
 * Give your notebook a name and select your desired runtime, in this case we'll be using the associated Spark runtime.
 
-> Note: For this Code Pattern, set language to `R` and `Spark` version 2.1
+> Note: For this Code Pattern, after settin the run-time to your `Spark` instance, set language to `R`
 
 
 ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/notebook_spark.png)
@@ -103,7 +103,7 @@ Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 * Enter this URL:
 
 ```
-https://github.com/IBM/r4ml-on-watson-studio/tree/master/notebooks/R4ML_Introduction_Exploratory_DataAnalysis.ipynb
+https://github.com/IBM/r4ml-on-watson-studio/blob/master/notebooks/R4ML_Introduction_Exploratory_DataAnalysis.ipynb
 ```
 
 * Click the `Create` button.
@@ -111,7 +111,7 @@ https://github.com/IBM/r4ml-on-watson-studio/tree/master/notebooks/R4ML_Introduc
 * Repeat these steps for creating the second notebook, which has the URL:
 
 ```
-https://github.com/IBM/r4ml-on-watson-studio/tree/master/notebooks/R4ML_Data_Preprocessing_and_Dimension_Reduction.ipynb
+https://github.com/IBM/r4ml-on-watson-studio/blob/master/notebooks/R4ML_Data_Preprocessing_and_Dimension_Reduction.ipynb
 ```
 
 ### 5. Run the notebooks
