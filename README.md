@@ -10,7 +10,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 The Intended audience for this Code Pattern is data scientists who wish to perform scalable feature engineering and data exploration.
 
-R4ML provides various out-of-the-box tools, and a preprocessing utility for doing the feature engineering. It also provides utilities to sample data and do exploratory analysis. This specific Code Pattern will provide an end-to-end example to demonstate the ease and power of R4ML in implementing data preprocessing and data exploration. For more information about additional R4ML functionality, support, documentation, and roadmap, please vist [R4ML](https://github.com/SparkTC/r4ml)
+This specific Code Pattern will provide an end-to-end example to demonstate the ease and power of R4ML in implementing data preprocessing and data exploration. R4ML provides various out-of-the-box tools, and a preprocessing utility for doing the feature engineering. It also provides utilities to sample data and do exploratory analysis. For more information about additional R4ML functionality, support, documentation, and roadmap, please vist [R4ML](https://github.com/SparkTC/r4ml)
 
 This Code Pattern will walk the user through the following conceptual steps:
 
@@ -56,7 +56,8 @@ This Code Pattern consists of following activities:
 
 1. [Sign up for the Watson Studio](#1-sign-up-for-the-watson-studio)
 2. [Create a new Watson Studio project](#2-create-a-new-watson-studio-project)
-3. [Create the notebooks](#3-create-the-notebooks)
+3. [Create the Spark service](#3-create-the-spark-service)
+4. [Create the notebooks](#4-create-the-notebooks)
 5. [Run the notebooks](#5-run-the-notebooks)
 6. [Save and Share](#6-save-and-share)
 
@@ -83,7 +84,17 @@ Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 
 ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/project_dashboard.png)
 
-### 3. Create the Notebooks
+## 3. Create the Spark service
+
+* In your project go to the `Settings` tab, scroll down to `Associated Services` and choose `+ Add service` -> `Spark`
+
+![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/add_service.png)
+
+* Either choose and `Existing` Spark service, or create a `New` one
+
+![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/add_existing_spark_service.png)
+
+### 4. Create the Notebooks
 
 * From the project dashboard view, click the `Assets` tab, click the `+ New notebook` button.
 
@@ -92,7 +103,6 @@ Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 * Give your notebook a name and select your desired runtime, in this case we'll be using the associated Spark runtime.
 
 > Note: For this Code Pattern, after setting the run-time to your `Spark` instance, set language to `R`
-
 
 ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/notebook_spark.png)
 
@@ -117,6 +127,8 @@ https://github.com/IBM/r4ml-on-watson-studio/blob/master/notebooks/R4ML_Data_Pre
 ### 5. Run the notebooks
 
 First run the exploratory nodebook first. Once Complete, run the data processing notebook.
+
+> Note: Running the exploratory notebook first is a requirement. It loads libraries and packages that are required in the data processing notebook.
 
 When a notebook is executed, what is actually happening is that each code cell in
 the notebook is executed, in order, from top to bottom.
