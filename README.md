@@ -92,7 +92,7 @@ Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 
 * Either choose and `Existing` Spark service, or create a `New` one
 
-![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/add_existing_spark_service.png)
+<img width="500" src="https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/add_existing_spark_service.png">
 
 ### 4. Create the Notebooks
 
@@ -181,34 +181,28 @@ options to specify exactly what you want shared from your notebook:
 * A variety of `download as` options are also available in the menu.
 
 ## Explore and Analyze the Data
- 
-## Analysis Section:
 
-#### Scalable R4ML Key Features:
+Both notebooks are well documented and will guide you through the exercise. Some of the main tasks that will be covered include:
 
-  - R4ML is a git downloadable open-source R package from IBM
+* Load packages and data and do the initial transformation and various feature engineering.
 
-  - Created on top of SparkR and Apache SystemML (so it supports features from both)
+* Sample the dataset and use the powerful ggplot2 library from R to do various exploratory analysis.
 
-  - Acts as a R bridge between SparkR and Apache SystemML
+* Run PCA (Principal Component Analysis) to reduce the dimensions of the dataset and select the k components to cover 90% of variance.
 
-  - Provides a collection of canned algorithms
+You will also see the advantages of using R4ML, which is a git-downloadable open-source R packaged from IBM. Some of these include:
 
-  - Provides the ability to create custom ML algorithms
+* Created on top of SparkR and Apache SystemML, so it supports features from both.
 
-  - Provides both SparkR and Apache SystemML functionality
+* Acts as an R bridge between SparkR and Apache SystemML.
 
-  - APIs are friendlier to the R user
+* Provides a collection of canned algorithms.
 
-#### Content
+* Provides the ability to create custom ML algorithms.
 
- - We will first load the package and data and do the initial transformation and various feature engineering
+* Provides both SparkR and Apache SystemML functionality.
 
- - We will sample the dataset and use the powerful ggplot2 library from R to do various exploratory analysis
-
- - In the end, we will run PCA to reduce the dimension of the dataset and select the k components to cover 90% of variance
-
- - More details are in the notebooks
+* APIs that should be familiar to R users.
 
 ## Sample output
 
@@ -224,8 +218,6 @@ The following screen-shots shows the correlation between various features of the
 The following screen-shots shows the output of the dimensionality reduction using PCA and how only 6 components of PCA carries 90% of information.
 
 ![Dimension Reduction using PCA](doc/source/images/r4ml-pca-dimred.png)
-
-
 
 Awesome job following along! Now go try and take this further or apply it to a different use case!
 
