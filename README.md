@@ -10,7 +10,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 The Intended audience for this Code Pattern is data scientists who wish to perform scalable feature engineering and data exploration.
 
-This specific Code Pattern will provide an end-to-end example to demonstate the ease and power of R4ML in implementing data preprocessing and data exploration. R4ML provides various out-of-the-box tools, and a preprocessing utility for doing the feature engineering. It also provides utilities to sample data and do exploratory analysis. For more information about additional R4ML functionality, support, documentation, and roadmap, please vist [R4ML](https://github.com/SparkTC/r4ml)
+This specific Code Pattern will provide an end-to-end example to demonstrate the ease and power of R4ML in implementing data preprocessing and data exploration. R4ML provides various out-of-the-box tools, and a preprocessing utility for doing the feature engineering. It also provides utilities to sample data and do exploratory analysis. For more information about additional R4ML functionality, support, documentation, and roadmap, please vist [R4ML](https://github.com/SparkTC/r4ml)
 
 This Code Pattern will walk the user through the following conceptual steps:
 
@@ -66,7 +66,7 @@ This Code Pattern consists of following activities:
 Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 
 > Note: if you would prefer to skip the remaining Watson Studio set-up steps and just follow along by viewing the completed Notebook, simply:
-> * View the completed notebooks and its outputs, as is. In this Code Pattern, there are two notebooks. The first [notebook](https://github.com/IBM/r4ml-on-watson-studio/tree/master/notebooks/R4ML_Introduction_Exploratory_DataAnalysis.ipynb) is for exploring, and the second [notebook](https://github.com/IBM/r4ml-on-watson-studio/tree/master/notebooks/R4ML_Data_Preprocessing_and_Dimension_Reduction.ipynb) performs data pre-processing and deminsion reduction analysis. 
+> * View the completed notebooks and its outputs, as is. In this Code Pattern, there are two notebooks. The first [notebook](https://github.com/IBM/r4ml-on-watson-studio/tree/master/notebooks/R4ML_Introduction_Exploratory_DataAnalysis.ipynb) is for exploring, and the second [notebook](https://github.com/IBM/r4ml-on-watson-studio/tree/master/notebooks/R4ML_Data_Preprocessing_and_Dimension_Reduction.ipynb) performs data pre-processing and dimension reduction analysis. 
 > * While viewing the notebook, you can optionally download it to store for future use.
 > * When complete, continue this code pattern by jumping ahead to the [Explore and Analyze the Data](#explore-and-analyze-the-data) section.
 
@@ -212,11 +212,11 @@ options to specify exactly what you want shared from your notebook:
 
 ## Sample output
 
-The following screen-shots shows the histogram of the exploratory analysis .
+The following screen-shots shows the histogram of the exploratory analysis.
 
 ![Exploratory Analysis Histogram](doc/source/images/r4ml-hist.png)
 
-The following screen-shots shows the correlation between various features of the exploratory analysis .
+The following screen-shots shows the correlation between various features of the exploratory analysis.
 
 ![Exploratory Analysis Correlation between various features](doc/source/images/r4ml-corr.png)
 
