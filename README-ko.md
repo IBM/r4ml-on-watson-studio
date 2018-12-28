@@ -41,8 +41,8 @@ Watson Studio를 통해 데이터 사이언티스트, 개발자, 그리고 데�
 # 구성요소
 
 * [IBM Watson Studio](https://dataplatform.ibm.com): Spark와 같은 IBM value-adds가 포함된 협업 개발환경에서,  RStudio, Jupyter, Python을 사용하여 데이터를 분석합니다. 
-* [IBM Analytics for Apache Spark](https://console.ng.bluemix.net/catalog/services/apache-spark): 매우 빠르고 용량이 큰 데이터 처리에 최적화된 오픈소스 클러스터 컴퓨팅 프레임워크입니다. 
-* [Jupyter Notebooks](http://jupyter.org/): 라이브 코드, 수식, 시각화, 설명 텍스트가 포함된 문서를 생성하고 공유할 수 있도록 해주는 오픈소스 웹 어플리케이션입니다. 
+* [IBM Analytics for Apache Spark](https://console.ng.bluemix.net/catalog/services/apache-spark): 초고속 및 대용량 데이터 프로세싱을 위한 오픈소스 클러스터 컴퓨팅 프레임워크
+* [Jupyter Notebooks](http://jupyter.org/): 라이브 코드, 방정식, 시각화 및 설명 텍스트가 포함하는 문서를 만들고 공유 할 수있는 오픈 소스 웹 애플리케이션입니다.
 
 ## Featured Technologies
 
@@ -53,17 +53,17 @@ Watson Studio를 통해 데이터 사이언티스트, 개발자, 그리고 데�
 
 이 코드 패턴은 다음의 활동들로 구성됩니다.
 
-* [Jupyter notebooks을 IBM Watson Studio에서 실행하기](#run-jupyter-notebooks-in-the-ibm-watson-studio).
-* [데이터 탐색과 분석 수행하기](#explore-and-analyze-the-data).
+* [Jupyter notebooks을 IBM Watson Studio에서 실행하기](#IBM-Watson-Studio에서-Jupyter-Notebooks-실행하기).
+* [데이터 탐색과 분석 수행하기](#데이터-탐색과-분석-수행하기).
 
 ## IBM Watson Studio에서 Jupyter Notebooks 실행하기
 
-1. [Watson Studio 가입](#1-sign-up-for-the-watson-studio)
-2. [새로운 Watson Studio 프로젝트 생성](#2-create-a-new-watson-studio-project)
-3. [Spark 서비스 생성](#3-create-the-spark-service)
-4. [노트북 생성](#4-create-the-notebooks)
-5. [노트북 실행](#5-run-the-notebooks)
-6. [저장 및 공유](#6-save-and-share)
+1. [Watson Studio 가입](#1.-Watson-Studio-가입)
+2. [새로운 Watson Studio 프로젝트 생성](#2.-새로운-Watson-Studio-프로젝트-생성)
+3. [Spark 서비스 생성](#3.-Spark-서비스-생성)
+4. [노트북 생성](#4.-노트북-생성)
+5. [노트북 실행](#5.-노트북-실행)
+6. [저장 및 공유](#6-저장-및-공유)
 
 ### 1. Watson Studio 가입
 
@@ -165,11 +165,11 @@ https://github.com/IBM/r4ml-on-watson-studio/blob/master/notebooks/R4ML_Data_Pre
 노트북 패널의 우측 상단에 위치한 `Share` 버튼을 클릭하여 노트북을 공유할 수 있습니다. 노트북의 "읽기 전용" 버전과 연결되는 URL 링크가 생성됩니다. 다음과 같이 노트북에서 공유를 원하는 것을 구체적으로 지정할 수 있습니다.
 
 * `Only text and output`: 노트북 화면에서 모든 코드 셀을 삭제할 것입니다. 
-* `All content excluding sensitive code cells`:  *sensitive* 태그를 포함한 코드 셀을 삭제할 것입니다. 예를 들어, # @hidden_cell 는 여러분의 신임정보가 공유되는 것을 방지합니다. 예를 들어,  `# @hidden_cell` 는 여러분의 신임정보가 공유되는 것을 방지합니다.
+* `All content excluding sensitive code cells`:  *sensitive* 태그를 포함한 코드 셀을 삭제할 것입니다. 예를 들어,  `# @hidden_cell` 는 여러분의 신임정보가 공유되는 것을 방지합니다.
 * `All content, including code`: 노트북을 있는 그대로 보여줍니다.
 * 다양한 `download as` 저장 옵션도 사용 가능합니다.
 
-## 데이터 탐색 및 분석
+## 데이터 탐색과 분석 수행하기
 
 두 노트북 모두 문서화 되어 있어, 실습에 대한 가이드가 되어 줄 것입니다. 앞으로 다룰 주요 작업은 다음과 같습니다.
 
@@ -218,7 +218,7 @@ https://github.com/IBM/r4ml-on-watson-studio/blob/master/notebooks/R4ML_Data_Pre
 # 자세히 보기
 
 * **데이터 분석 코드 패턴**: 이 과정이 즐거우셨나요? 다른 [데이터 분석 코드 패턴](https://developer.ibm.com/code/technologies/data-science/)도 확인해보세요.
-* **AI, 데이터 코드 패턴 플레이리스트t**: 저희의 모든 코드 패턴 비디오가 있는 [플레이리스트](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde)를 북마크하세요.
+* **AI, 데이터 코드 패턴 플레이리스트**: 저희의 모든 코드 패턴 비디오가 있는 [플레이리스트](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde)를 북마크하세요.
 * **Watson Studio**: IBM의 [Watson Studio](https://dataplatform.ibm.com/)로 데이터 사이언스의 고수가 되어보세요.
 * **Spark on IBM Cloud**: Spark cluster가 필요하신가요? IBM Cloud에서 저희의 [Spark service](https://console.bluemix.net/catalog/services/apache-spark)로 최대 30개의 Spark executers를 생성해보세요.
 
