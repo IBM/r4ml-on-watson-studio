@@ -1,5 +1,6 @@
 # Big Data Preparation and Exploration using R4ML
 *다른 언어로 보기: [English](README.md).*
+
 이 코드 패턴에서는 확장 가능한 R 패키지인 R4ML을 IBM Watson Studio에서 실행하여, 다양한 머신 러닝 기법을 실습해 볼 것입니다. Watson Studio는 인터렉티브하고 협업이 쉬운 클라우드 기반 개발환경입니다.
 
 Watson Studio를 통해 데이터 사이언티스트, 개발자, 그리고 데이터 사이언스에 관심이 있는 누구나 Jupyter Notebooks, Spark와 같은 툴을 활용하여, 쉽게 공유 및 협업하고 데이터에서 인사이트를 수집할 수 있습니다. 
