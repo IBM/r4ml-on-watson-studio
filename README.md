@@ -5,8 +5,8 @@ In this Code Pattern we will use R4ML, a scalable R package, running on IBM Wats
 
 When the reader has completed this Code Pattern, they will understand how to:
 
-* Use [Jupyter Notebooks](http://jupyter.org/) to load, visualize, and analyze data.
-* Run Notebooks in [IBM Watson Studio](https://dataplatform.ibm.com).
+* Use [Jupyter Notebooks](https://jupyter.org/) to load, visualize, and analyze data.
+* Run Notebooks in [IBM Watson Studio](https://dataplatform.cloud.ibm.com/).
 * Leverage [R4ML](https://github.com/CODAIT/r4ml) to conduct data preparation and exploratory analysis with big data.
 
 The Intended audience for this Code Pattern is data scientists who wish to perform scalable feature engineering and data exploration.
@@ -22,7 +22,7 @@ This Code Pattern will walk the user through the following conceptual steps:
 
 ### Source of data
 
-- We will use the Airline On-Time Statistics and Delay Causes from [RITA](http://www.rita.dot.gov). A 1% sample of the "airline" dataset is available [here](http://stat-computing.org/dataexpo/2009/the-data.html). All of the data is in the      public domain.
+- We will use the Airline On-Time Statistics and Delay Causes from [RITA](https://www.transportation.gov/research-technology). A 1% sample of the "airline" dataset is available [here](http://stat-computing.org/dataexpo/2009/the-data.html). All of the data is in the      public domain.
 - For this Code Pattern, we will use a subset of the above dataset, which is shipped with R4ML
 - This Code Pattern can also work with the larger RITA dataset.
  
@@ -37,9 +37,9 @@ This Code Pattern will walk the user through the following conceptual steps:
 
 # Included Components
 
-* [IBM Watson Studio](https://dataplatform.ibm.com): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
-* [IBM Analytics for Apache Spark](https://console.ng.bluemix.net/catalog/services/apache-spark): An open-source cluster computing framework optimized for extremely fast and large scale data processing.
-* [Jupyter Notebooks](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
+* [IBM Watson Studio](https://dataplatform.cloud.ibm.com/): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
+* [IBM Analytics for Apache Spark](https://cloud.ibm.com/catalog/services/apache-spark): An open-source cluster computing framework optimized for extremely fast and large scale data processing.
+* [Jupyter Notebooks](https://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 
 ## Featured Technologies
 
@@ -64,10 +64,10 @@ This Code Pattern consists of following activities:
 
 ### 1. Sign up for the Watson Studio
 
-Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
+Log in or sign up for IBM's [Watson Studio](https://dataplatform.cloud.ibm.com/).
 
 > Note: if you would prefer to skip the remaining Watson Studio set-up steps and just follow along by viewing the completed Notebook, simply:
-> * View the completed notebooks and its outputs, as is. In this Code Pattern, there are two notebooks. The first [notebook](https://github.com/IBM/r4ml-on-watson-studio/tree/master/notebooks/R4ML_Introduction_Exploratory_DataAnalysis.ipynb) is for exploring, and the second [notebook](https://github.com/IBM/r4ml-on-watson-studio/tree/master/notebooks/R4ML_Data_Preprocessing_and_Dimension_Reduction.ipynb) performs data pre-processing and dimension reduction analysis. 
+> * View the completed notebooks and its outputs, as is. In this Code Pattern, there are two notebooks. The first [notebook](https://github.com/IBM/r4ml-on-watson-studio/blob/master/notebooks/R4ML_Introduction_Exploratory_DataAnalysis.ipynb) is for exploring, and the second [notebook](https://github.com/IBM/r4ml-on-watson-studio/blob/master/notebooks/R4ML_Data_Preprocessing_and_Dimension_Reduction.ipynb) performs data pre-processing and dimension reduction analysis. 
 > * While viewing the notebook, you can optionally download it to store for future use.
 > * When complete, continue this code pattern by jumping ahead to the [Explore and Analyze the Data](#explore-and-analyze-the-data) section.
 
@@ -229,10 +229,10 @@ Awesome job following along! Now go try and take this further or apply it to a d
 
 # Learn more
 
-* **Data Analytics Code Patterns**: Enjoyed this Code Pattern? Check out our other [Data Analytics Code Patterns](https://developer.ibm.com/code/technologies/data-science/)
+* **Data Analytics Code Patterns**: Enjoyed this Code Pattern? Check out our other [Data Analytics Code Patterns](https://developer.ibm.com/technologies/data-science/)
 * **AI and Data Code Pattern Playlist**: Bookmark our [playlist](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde) with all of our Code Pattern videos
-* **Watson Studio**: Master the art of data science with IBM's [Watson Studio](https://dataplatform.ibm.com/)
-* **Spark on IBM Cloud**: Need a Spark cluster? Create up to 30 Spark executors on IBM Cloud with our [Spark service](https://console.bluemix.net/catalog/services/apache-spark)
+* **Watson Studio**: Master the art of data science with IBM's [Watson Studio](https://dataplatform.cloud.ibm.com/)
+* **Spark on IBM Cloud**: Need a Spark cluster? Create up to 30 Spark executors on IBM Cloud with our [Spark service](https://cloud.ibm.com/catalog/services/apache-spark)
 
 # License
 
